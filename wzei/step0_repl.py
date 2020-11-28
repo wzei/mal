@@ -29,7 +29,7 @@ class terminal(object):
 
 @terminal
 def my_readline() -> str:
-    return input()
+	return input()
 #---------------------------------------
 
 # repl loop
