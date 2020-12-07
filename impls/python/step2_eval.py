@@ -43,7 +43,7 @@ def PRINT(exp):
     return printer._pr_str(exp)
 
 # repl
-repl_env = {} 
+repl_env = {}
 def REP(str):
     return PRINT(EVAL(READ(str), repl_env))
 
